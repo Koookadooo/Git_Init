@@ -26,7 +26,7 @@ git commit -m "$commit_message"
 git branch -M main
 
 # Add the remote repository
-git remote add origin "git@github.com:Koookadooo/$repository_name.git"
+git remote add origin "git@github.com:YourUserName/$repository_name.git"
 
 # Push to the main branch
 git push -u origin main
