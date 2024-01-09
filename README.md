@@ -1,8 +1,23 @@
 # Git_Init
 
 # Shell Script to Auto-Initialize a Git Repository
-If you have ever created multiple files in a project before initializing a repository and are tired off typing in git command after git command when you finally do decide to initialize your project into a repository, this script is for you!
-This shell script will automatically perform all the necessary git calls to initialize a new repository for your project.
+If you have ever created multiple files in a project before initializing a repository and are tired off typing in git command after git command when you finally do decide to initialize your project into a repository i.e.:
+
+echo "# example" >> README.md
+
+git init
+
+git add README.md
+
+git commit -m "first commit"
+
+git branch -M main
+
+git remote add origin https://github.com/YourUserName/example.git
+
+git push -u origin main
+
+Here is a solution! This shell script will automatically perform all the necessary git calls to initialize a new repository for your project.
 Once a user has created a new repository in github, they only need call this script from their command line within the project directory.
 
 In order to work correcty, the script requires two input arguments after the file call:
